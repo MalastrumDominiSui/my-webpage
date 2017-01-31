@@ -1,0 +1,31 @@
+<!-- some general notes:  
+
+I had a lot of fun with this! I focused a lot on how it looks, mainly because I was
+sensitive that it would look too much like a webpage from the 1990's.
+
+There must be a better way to organize my CSS, especially the images and their sizes.
+I simply wrote it chronologically, as I needed a new element of CSS, I wrote it next.
+The assignment specified that all the CSS elements should be contained in the CSS file,
+and I feel as if having image sizes "height" and "width" are CSS elements that need to be
+in the CSS file, though I am really not sure how to create specific images for specific
+purposes, and while I know the answer exists, for me it fell outside the time requirement
+for completing this project.
+
+
+I was hoping to classify the images so that they could be specific types of images, for
+example the bottom link images versus the larger page images, and clickable images
+versus non clickable images.  I managed to do this by classifying that only <a> tag
+images had a hover function (something I stole from learning a bit at Do Space's
+Hello Code).
+
+I have a general problem that there is an invisible clickable portion
+of pictures between <a> <img>s.  It was previously underlined, until I disabled 
+underline on hyperlink text, for other reasons, not specifically to make it dissapear.
+Thus I know it has something to do with the hyperlink 
+text, but after some research, I can't find anything conclusive to help me eliminate it.
+I tried to eliminate rogue spaces, but still no luck.  I am interested in the answer or
+a hint on this conundrum.
+
+I want to know how to create a circular image, make sure all the images are the same size, but without
+warping the actual picture to stretch to different dimensions, e.g. the sushi image
+is compressed horizontally, but stretching it will break symmetry.-->

@@ -1,0 +1,91 @@
+
+    body {
+      
+      text-align: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background:
+         linear-gradient(to bottom right, #000000 0%, #2C3D4F 90%) fixed, /* full page blend- http://stackoverflow.com/questions/16841323/making-gradient-background-fill-page-with-css */
+         linear-gradient(to left, #0A3442 0%, #104455 90%);
+      font-family: "Helvetica";
+    }
+  
+    h1{
+        font-family: cursive;
+        font-size: 40px;
+        color: white;
+        margin-top: 40px;
+        border: outset;
+        border-color:#3AD3CD;
+        border-width: 5px;
+        border-bottom: 10px outset grey;
+        border-top: 5px outset #7FFFD6;
+        background-image: 
+         url('pics/ocean.jpg');
+        background-size: cover;
+       /* background-blend-mode: lighten;
+          /*  linear-gradient(#FF9000 0%, black 70%),
+         /*  linear-gradient(to right, #7FFFD6 0%, #1B435D 77%);
+  background-blend-mode: screen, difference, lighten;  gradient trick css-tricks.com/almanac/properties/b/background-blend-mode/*/
+
+    }
+    
+    h2{
+      color: white;
+    }
+    
+    img {
+      padding: 0p;
+      margin: 30px;
+      border: 3px solid black ;
+      border-radius: 60%;
+      
+    }
+    
+    a img: {
+      padding: 0px;
+      margin: 30px;
+      border: 3px solid black;
+      border-radius: 60%;
+    }
+    
+    a img:hover {
+    box-shadow: 0 0 1px 2px white;
+}
+
+    h2{
+      font-family: fantasy;
+      color: white;
+      
+    }
+    
+    a {
+      font-family: fantasy;
+      text-decoration: none;
+      text-shadow: #FFFFFF;
+    }
+    
+    .xtrnlink {
+      font-family: fantasy;
+      text-decoration: underline;
+      color: blue;
+      font-size: 20px;
+    }
+    
+    img.xtrnlink {
+      height: 300px;
+      width: 400px;
+      border-radius: 0;
+    }
+    
+    a.xtrnlink:hover{
+      color: white;
+    }
+    
+    p.xtrnlink { 
+      font-family:fantasy;
+      color: purple;
+      text-decoration: none;
+    }
+    
+
