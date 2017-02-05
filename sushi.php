@@ -1,12 +1,10 @@
 <!DOCTYPE html>
-
-
 <html lang="en-us">
+<meta charset="utf-8">
 
 <head>
-<meta charset="utf-8">
 <title>Ocean - Driftwood</title>
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
@@ -26,15 +24,7 @@
 
 <h2>But seriously, don't eat small children.</h2>
 
+<?php include 'navigation.php';?>
+
 <br>
 
-<a href="Poem.html">img alt="Thresher pic" src="pics/thresher.jpg" width="75" height="75"</a>
-
-<a href="jellyfish.html">img alt="driftwood external links" src="pics/jelly.jpg" width="75" height="75"</a>
-
-<a href="external-links.html">img alt="dark ocean" src="pics/driftwood.jpg" width="75" height="75"</a>
-
-<a href="index.html">img alt="ocean" src="pics/ocean.jpg" width="75" height="75"</a>
-</body>
-
-</html>

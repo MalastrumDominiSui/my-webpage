@@ -1,21 +1,20 @@
 <!DOCTYPE html>
-
-
 <html lang="en-us">
+<meta charset="utf-8">
+<div class = "navbar">
+
+</div>
 
 <head>
-<meta charset="utf-8">
 <title>Ocean - Driftwood</title>
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
-<h1>
-<p>Some Interesting Driftwood... </p>
-</h1>
+<h1>Some Interesting Driftwood...</h1>
 
 <h2>
-<p>Don't get a splinter!</p>
+Don't get a splinter!
 </h2>
 
 <a class="xtrnlink" href="http://imgur.com/gallery/tPlSK"> Oceanic Paintings by Ivan Konstantinovich</a>
@@ -44,29 +43,18 @@
 <br>
 
 
-<a class="xtrnlink" href="http://imgur.com/gallery/KVkA5"> Some Views of Thresher Sharks</a>
-<br>
+<a class="xtrnlink" href="http://imgur.com/gallery/KVkA5">
+ Some Views of Thresher Sharks
+</a><br>
+
 <img class="xtrnlink" alt="Thresher Imgur Page" src="pics/ThresherImgur.png" >
 <br>
 <p class="xtrnlink"> A Gallery of Pretty Cool Pictures of Thresher Sharks</p>
 
 <br>
 <br>
-
-<a href="Poem.html">
-<img alt="Thresher pic" src="pics/thresher.jpg" width="75" height="75">
-
-<a href="jellyfish.html">
-<img alt="driftwood external links" src="pics/jelly.jpg" width="75" height="75">
-
-<a href="sushi.html">
-<img alt="dark ocean" src="http://i.imgur.com/Kkp9pKN.jpg" width="75" height="75">
-
-<a href="index.html">
-<img alt="ocean" src="pics/ocean.jpg" width="75" height="75">
-<br>
-<br>
-
+<?php include 'navigation.php';?>
 </body>
+
 
 </html>

@@ -1,22 +1,17 @@
 <!DOCTYPE html>
-
-
 <html lang="en-us">
 
 <head>
-<meta charset="utf-8">
 <title>Ocean - Driftwood</title>
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
-<h1>
-The Santa Monica Pier
-</h1>
+<h1>The Santa Monica Pier</h1>
 
 <img alt=thresher src="http://i.imgur.com/GVW8eUA.jpg" width=650 height=450>
 
-    <h2>
+<h2>
 It was after we passed Moby’s Dock<br>
 that Ebony met her first thresher shark<br>
 <br>
@@ -64,18 +59,10 @@ Cori MacNaughton<br>
 13 Sept 2000<br>
 </h2>
 
-
-<a href="http://hellopoetry.com/words/54559/thresher/poems/"> Shark Sauce </a> <br>
-<br>
+<a href="http://hellopoetry.com/words/54559/thresher/poems/"> Shark Sauce </a><br>
 <br>
 
-<a href="jellyfish.html">img alt="amazing jellyfish" src="pics/jelly.jpg" width="75" height="75"</a>
-
-<a href="sushi.html">img alt="dark ocean" src="http://i.imgur.com/Kkp9pKN.jpg" width="75.jpg" height="75"</a>
-
-<a href="external-links.html">img alt="driftwood external links" src="pics/driftwood.jpg" width="75" height="75"</a>
-
-<a href="index.html">img alt="ocean" src="pics/ocean.jpg" width="75" height="75"</a>
+<?php include 'navigation.php';?>
 
 </body>
 

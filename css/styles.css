@@ -1,6 +1,5 @@
 
     body {
-      
       text-align: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -11,18 +10,20 @@
     }
   
     h1{
+        background-image: url("../pics/ocean.jpg");
+        background-size: cover;
         font-family: cursive;
         font-size: 40px;
         color: white;
-        margin-top: 40px;
+        margin-top: 20px;
         border: outset;
         border-color:#3AD3CD;
-        border-width: 5px;
+        border-width: 20px;
         border-bottom: 10px outset grey;
         border-top: 5px outset #7FFFD6;
-        background-image: 
-         url('pics/ocean.jpg');
-        background-size: cover;
+        border-radius: 20%;
+        padding: 20px;
+        
        /* background-blend-mode: lighten;
           /*  linear-gradient(#FF9000 0%, black 70%),
          /*  linear-gradient(to right, #7FFFD6 0%, #1B435D 77%);
@@ -39,19 +40,24 @@
       margin: 30px;
       border: 3px solid black ;
       border-radius: 60%;
+      height: 375px;
+      width: 375px;
       
     }
     
-    a img {
+    a img.frontpage {
       padding: 0px;
       margin: 30px;
       border: 3px solid black;
       border-radius: 60%;
+      text-align: center;
+      height: 300px;
+      width: 300px;
     }
-    
+
     a img:hover {
     box-shadow: 0 0 1px 2px white;
-}
+    }
 
     h2{
       font-family: fantasy;
@@ -60,8 +66,10 @@
     }
     
     a {
+      style= "display:block;
       font-family: fantasy;
       text-decoration: none;
+
     }
     
     .xtrnlink {
@@ -85,6 +93,30 @@
       font-family:fantasy;
       color: purple;
       text-decoration: none;
+    }
+
+    div.navbar {
+      vertical-align: top;
+      display: inline-block;
+      text-align: center;
+      width: 150px;
+    }
+
+    img.bottomlink {
+      padding: 0px;
+      margin: 20px;
+      border: 3px solid black ;
+      border-radius: 60%;
+      height: 75px;
+      width: 75px;
+    }
+
+    span.bottomlink {
+      text-align: center;
+      display: block;
+      height: 85px;
+      width: 85px;
+
     }
     
 
