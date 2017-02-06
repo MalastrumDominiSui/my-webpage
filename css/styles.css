@@ -8,7 +8,15 @@
          linear-gradient(to left, #0A3442 0%, #104455 90%);
       font-family: "Helvetica";
     }
-  
+    
+    .unselectable {
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    }
+
     h1{
         background-image: url("../pics/ocean.jpg");
         background-size: cover;
@@ -112,6 +120,7 @@
     }
 
     span.bottomlink {
+/*      margin: auto;*//* experiment with centering using this*/
       text-align: center;
       display: block;
       height: 85px;
