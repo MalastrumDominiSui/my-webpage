@@ -4,8 +4,8 @@
 <meta charset="utf-8">
 
 <head>
-<title>Ocean - Main</title>
-<link rel="stylesheet" href="./css/styles.css">
+	<title>Ocean - Main</title>
+	<link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
@@ -13,11 +13,11 @@
     
     
 <h1>
-Wonders of the Ocean
+	Wonders of the Ocean
 </h1>
 
 <h2>
-Dive on in!
+	Dive on in!
 </h2>
 
 
@@ -26,13 +26,16 @@ Dive on in!
 </a>
 
 <a href="Poem.php">
-<img class="frontpage" alt="Thresher pic" src="pics/thresher.jpg" width="300" height="300"></a><br>
+	<img class="frontpage" alt="Thresher pic" src="pics/thresher.jpg" width="300" height="300">
+</a><br>
 
 <a href="external-links.php">
-<img class="frontpage" alt="driftwood external links" src="pics/driftwood.jpg" width="300" height="300"></a>
+	<img class="frontpage" alt="driftwood external links" src="pics/driftwood.jpg" width="300" height="300">
+</a>
 
 <a href="sushi.php">
-<img class="frontpage" alt="dark ocean" src="http://i.imgur.com/Kkp9pKN.jpg" width="300" height="300"></a><br>
+	<img class="frontpage" alt="dark ocean" src="http://i.imgur.com/Kkp9pKN.jpg" width="300" height="300">
+</a><br>
 
 <div class = "navbar">
 	<img class="bottomlink" alt="clouds" src="pics/ocean.jpg" style="border: 5px solid  blue">
